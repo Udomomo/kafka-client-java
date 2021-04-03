@@ -1,0 +1,3 @@
+rootProject.name = 'kafka-client-java'
+
+include 'producer', 'consumer', 'list-topic'
