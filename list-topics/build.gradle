@@ -1,0 +1,7 @@
+apply plugin: 'com.github.johnrengelman.shadow'
+
+shadowJar {
+    archiveBaseName.set('kafka-client-java-list-topic')
+    archiveClassifier.set('')
+    archiveVersion.set('')
+}

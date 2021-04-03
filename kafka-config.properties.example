@@ -1,0 +1,5 @@
+zookeeper.connect=<hostname:port>
+bootstrap.servers=<hostname:port>
+key.serializer=org.apache.kafka.common.serialization.StringSerializer
+value.serializer=org.apache.kafka.common.serialization.StringSerializer
+group.id=kafka-client-java
